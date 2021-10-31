@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>~GE0004B37752.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="035CF1BEFD1DD9AA9A2F">
+		<name>Outer Banks</name>
+		<open>1</open>
+		<Placemark id="0AB38E18801DD9AA9A30">
+			<name>Outer Banks</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-76.01288606896532,36.95260060363169,0 -76.05699224625624,36.95650579376003,0 -76.00597167936775,36.82498622409709,0 -75.95270414221744,36.64799254435167,0 -75.90398645736104,36.52252665105647,0 -75.86659405389784,36.37680622506419,0 -75.79443011066137,36.2111411395508,0 -75.71235531523493,35.98752714076127,0 -75.63817280956739,35.82508895288198,0 -75.59097561067074,35.6796160413044,0 -75.55564670399421,35.51171955125185,0 -75.57742293663384,35.33369694611119,0 -75.58893284107224,35.1983603252175,0 -75.52000477776089,35.17253172151179,0 -75.50231229813458,35.24560374580142,0 -75.45240065731244,35.41402231289303,0 -75.43303655709857,35.55574601187157,0 -75.46149188075137,35.73522654118444,0 -75.51462973982935,35.81248361295021,0 -75.59587370600202,35.95240367680294,0 -75.67078637165061,36.08445390579493,0 -75.75662778854131,36.25641917993796,0 -75.79457967473624,36.35737860934078,0 -75.83697866476267,36.4861131858851,0 -75.85536152070203,36.5715935638891,0 -75.87136189135714,36.62851280770104,0 -75.88550396959319,36.65762897569085,0 -75.9126024965213,36.71118328236422,0 -75.94434451003369,36.80015054584884,0 -75.95373810761318,36.83663551141845,0 -75.96855196227615,36.88673836283833,0 -75.98679483635067,36.93618351789618,0 -76.01288606896532,36.95260060363169,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="08D4E853641DD9AA9A31">
+			<name>Surfline Camera</name>
+			<LookAt>
+				<longitude>-75.51726211988964</longitude>
+				<latitude>35.26794682999833</latitude>
+				<altitude>0</altitude>
+				<heading>11.31817878948482</heading>
+				<tilt>15.27820100360443</tilt>
+				<range>486.0591415133451</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.51854542302976,35.26764135573842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="02AF9587A11DD9AA9A32">
+			<name>Jockeys Ridge</name>
+			<LookAt>
+				<longitude>-75.62308148026554</longitude>
+				<latitude>35.96287569681274</latitude>
+				<altitude>0</altitude>
+				<heading>-0.06152488140631743</heading>
+				<tilt>5.217765536628072</tilt>
+				<range>6977.531677107771</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.63360146006907,35.95975037447842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1CD3C8DD5A1DD9AA9A32">
+			<name>FRF</name>
+			<LookAt>
+				<longitude>-75.75024676287492</longitude>
+				<latitude>36.18163003861698</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1338134648612696</heading>
+				<tilt>19.22869904194145</tilt>
+				<range>627.4378946752585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.75175101744895,36.18195008876033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="284851F90E1DD9AA9A32">
+			<name>Oregon Inlet</name>
+			<LookAt>
+				<longitude>-75.51299517733578</longitude>
+				<latitude>35.77330264947877</latitude>
+				<altitude>0</altitude>
+				<heading>0.008634463198978039</heading>
+				<tilt>7.555709419029656</tilt>
+				<range>11632.78178795736</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.53324959932424,35.77294881047293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="05BFE325681DD9AA9A33">
+			<name>This area is prone to overwash/breaching</name>
+			<LookAt>
+				<longitude>-75.4328873955814</longitude>
+				<latitude>35.49412045155955</latitude>
+				<altitude>0</altitude>
+				<heading>0.1002410081337947</heading>
+				<tilt>0</tilt>
+				<range>96557.83980796672</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.48776441218288,35.47218060697388,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10F3B6D73D1DD9AA9A33">
+			<name>Starting north of here, there is no road so beach is impacted by vehicles</name>
+			<LookAt>
+				<longitude>-75.82535151243188</longitude>
+				<latitude>36.3971586535787</latitude>
+				<altitude>0</altitude>
+				<heading>-0.129772447128161</heading>
+				<tilt>14.39383737453084</tilt>
+				<range>2377.153970697697</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.82955240607853,36.3959055090367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0CACAF1D121DD9AA9A34">
+			<name>Nature Preserve</name>
+			<LookAt>
+				<longitude>-75.48777902940179</longitude>
+				<latitude>35.76327246170288</latitude>
+				<altitude>0</altitude>
+				<heading>0.04008557857167973</heading>
+				<tilt>2.543271858616861</tilt>
+				<range>14308.55397429996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.54326986505323,35.78667375611328,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
