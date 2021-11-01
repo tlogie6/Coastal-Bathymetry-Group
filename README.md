@@ -1,1 +1,14 @@
-# Coastal-Bathymetry-Group
+# Coastal Bathymetry Group
+## Note to team: I'm not sure what to put for this writeup or how much, feel free to change/add anything about the process that you went through. Also, whoever uploads the data please put in the specifics of your query (images, dates, etc.). I'm putting in the placeholder text for my scenes but I'm still waiting for processing so I might not be able to get my data in before the deadline.
+
+## Data Processing
+
+### Vertical Displacement (InSAR)
+Sentinel 1 InSAR data was collected from the Alaska Satellite Facility API using the process described by https://storymaps.arcgis.com/stories/68a8a3253900411185ae9eb6bb5283d3 . Two scenes were chosen from the outer banks in North Carolina, one before Hurricane Michael and one after. The later scene was chosen using the API's baseline tool based on its similarity to the initial (reference) scene. These two scenes were submitted to the Alaska Satellite Facility, which then generated an interferogram showing the vertical displacement between the two collection dates. 
+
+Reference Scene for Sentinel 1 InSAR Data: S1A_IW_SLC__1SDV_20181008T230552_20181008T230619_024051_02A0D6_7CE3
+This scene was taken from the southern part of the outer banks in North Carolina on 10/08/2018, shortly before the arrival of Hurricane Michael.
+
+Scene pair: S1A_IW_SLC__1SDV_20181125T230551_20181125T230619_024751_02B91E_6F46
+This scene has an almost identical position (perpendicular distance of -1 meter), and was collected 47 days after the reference scene on 11/25/2018, over a month after Hurricane Michael.
+
