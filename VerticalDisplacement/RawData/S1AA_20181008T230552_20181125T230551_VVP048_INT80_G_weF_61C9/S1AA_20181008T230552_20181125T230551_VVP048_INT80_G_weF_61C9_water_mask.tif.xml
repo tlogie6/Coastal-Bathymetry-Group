@@ -1,0 +1,208 @@
+<metadata xml:lang="en">
+    <Esri>
+        <CreaDate>20211101</CreaDate>
+        <CreaTime>01111700</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle>
+        <SyncOnce>TRUE</SyncOnce>
+        <scaleRange>
+            <minScale>150000000</minScale>
+            <maxScale>5000</maxScale>
+        </scaleRange>
+        <DataProperties>
+            <itemProps>
+                <imsContentType export="False">002</imsContentType>
+                <itemName>S1AA_20181008T230552_20181125T230551_VVP048_INT80_G_weF_61C9_water_mask.tif</itemName>
+            </itemProps>
+        </DataProperties>
+        <ArcGISProfile>NAP</ArcGISProfile>
+        <ModDate>20211101</ModDate>
+        <ModTime>01111700</ModTime>
+    </Esri>
+    <dataIdInfo>
+        <idPurp>This is the water mask for the InSAR products generated from a pair of Sentinel-1 SLC granules. Values of 0 indicate water, and pixels over land have a value of 1. It is an 8-bit unsigned integer GeoTIFF projected to WGS 84 / UTM zone 18N, and has a pixel spacing of 80 m. This mask has been applied during phase unwrapping.
+</idPurp>
+        <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This is the water mask for the InSAR products generated from a pair of Sentinel-1 SLC granules. The mask covers coastal waters and large inland waterbodies, and was generated based on the GSHHG shoreline map with a 3-km buffer applied to reduce the chance that land may be excluded. Pixels over water have a value of 0, while pixels over land have a value of 1. It has been projected to WGS 84 / UTM zone 18N coordinates, and has a pixel spacing of 80 m. This mask has been applied during phase unwrapping.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Reference Scene: S1A_IW_SLC__1SDV_20181008T230552_20181008T230619_024051_02A0D6_7CE3&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Secondary Scene: S1A_IW_SLC__1SDV_20181125T230551_20181125T230619_024751_02B91E_6F46&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Processing Date/Time: 2021-11-01T01:11:17+00:00&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHG) provides global shoreline data, and the L1 (boundary between ocean and land), L2 (boundary between lake and land), and L5 (boundary between ocean and Antarctic ice) datasets were used as inputs to generate this buffered mask. More information about the GSHHG is available at &lt;/SPAN&gt;&lt;A href="http://www.soest.hawaii.edu/wessel/gshhg/" target="_blank" &gt;&lt;SPAN&gt;http://www.soest.hawaii.edu/wessel/gshhg/&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;One potential source of error during phase unwrapping is the presence of extensive surface water (coastal areas or large inland waterbodies). In some cases, signal returns over surface water meet the coherence and amplitude threshold criteria, even though measurements over water should not be coherent. When this happens, phase unwrapping can occur over expanses of water, leading to unexpected phase jumps over land. This water mask is included as a stand-alone raster in all of ASF's InSAR products, but users can select the "Apply Water Mask" option when ordering InSAR jobs to include this water mask in the criteria for the validity mask used in phase unwrapping.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Refer to ASF's &lt;/SPAN&gt;&lt;A href="https://hyp3-docs.asf.alaska.edu/guides/insar_product_guide/" target="_blank" &gt;&lt;SPAN&gt;InSAR Product Guide&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt; for more information about On Demand InSAR products.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The Sentinel-1A satellite was launched April 3, 2014, and the Sentinel-1B satellite was launched April 25, 2016. The satellites each have a 12-day repeat cycle. More information about the mission is available at &lt;/SPAN&gt;&lt;A href="https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1" target="_blank" &gt;&lt;SPAN&gt;https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Additional information about Sentinel-1 data, imagery, tools and applications is available at &lt;/SPAN&gt;&lt;A href="https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1/" target="_blank" &gt;&lt;SPAN&gt;https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+</idAbs>
+        <idCredit>When using this data as an image in a publication such as journal papers, articles, presentations, posters, and websites, please include the following credit with the image (portions in square brackets are optional):
+
+[InSAR product processed by ]ASF DAAC HyP3 2021[ using GAMMA software]. Contains modified Copernicus Sentinel data 2018, processed by ESA.
+
+When using this data in a manuscript and/or crediting datasets used for analysis, an acknowledgement including the software versions may be appropriate:
+
+ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701. Contains modified Copernicus Sentinel data 2018, processed by ESA.
+
+For more information on citing the dataset, please refer to the README file distributed with this product.</idCredit>
+        <idCitation xmlns="">
+            <date>
+                <pubDate>2021-11-01T01:11:17+00:00</pubDate>
+            </date>
+            <citRespParty xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="007"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+            </citRespParty>
+        </idCitation>
+        <searchKeys>
+            <keyword>Alaska Satellite Facility</keyword>
+            <keyword>ASF</keyword>
+            <keyword>Synthetic Aperture Radar</keyword>
+            <keyword>SAR</keyword>
+            <keyword>Interferometric SAR</keyword>
+            <keyword>InSAR</keyword>
+            <keyword>Sentinel-1</keyword>
+        </searchKeys>
+        <dataLang>
+            <languageCode value="eng"/>
+            <countryCode value="US"/>
+        </dataLang>
+        <dataChar>
+            <CharSetCd value="004"/>
+        </dataChar>
+        <idPoC xmlns="">
+            <rpOrgName>Alaska Satellite Facility</rpOrgName>
+            <role>
+                <RoleCd value="010"/>
+            </role>
+            <rpCntInfo xmlns="">
+                <cntAddress addressType="physical">
+                    <delPoint>2156 Koyukuk Dr.</delPoint>
+                    <city>Fairbanks</city>
+                    <adminArea>Alaska</adminArea>
+                    <postCode>99775-7320</postCode>
+                    <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                    <country>US</country>
+                </cntAddress>
+                <cntPhone>
+                    <voiceNum tddtty="">907-474-5041</voiceNum>
+                </cntPhone>
+            </rpCntInfo>
+            <displayName>Alaska Satellite Facility</displayName>
+        </idPoC>
+        <resMaint xmlns="">
+            <maintFreq>
+                <MaintFreqCd value="009"/>
+            </maintFreq>
+            <maintCont xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="002"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+                <displayName>Alaska Satellite Facility</displayName>
+            </maintCont>
+        </resMaint>
+        <resConst>
+            <Consts xmlns="">
+                <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;There are no restrictions on the use of this data, but it must be acknowledged or cited as listed in the credits.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+            </Consts>
+        </resConst>
+        <envirDesc>This product was generated by ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701.</envirDesc>
+        <tpCat>
+            <TopicCatCd value="008"/>
+        </tpCat>
+    </dataIdInfo>
+    <mdHrLv>
+        <ScopeCd value="005"/>
+    </mdHrLv>
+        <mdFileID>5.1.1</mdFileID>
+    <mdLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+    </mdLang>
+    <mdChar>
+        <CharSetCd value="004"/>
+    </mdChar>
+    <mdDateSt>20211101</mdDateSt>
+    <dataSetFn>
+        <OnFunctCd value="001"/>
+    </dataSetFn>
+    <mdContact xmlns="">
+        <rpOrgName>Alaska Satellite Facility</rpOrgName>
+        <role>
+            <RoleCd value="006"/>
+        </role>
+        <rpCntInfo xmlns="">
+            <cntAddress addressType="physical">
+                <delPoint>2156 Koyukuk Dr.</delPoint>
+                <city>Fairbanks</city>
+                <adminArea>Alaska</adminArea>
+                <postCode>99775-7320</postCode>
+                <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                <country>US</country>
+            </cntAddress>
+            <cntPhone>
+                <voiceNum tddtty="">907-474-5041</voiceNum>
+            </cntPhone>
+        </rpCntInfo>
+        <displayName>Alaska Satellite Facility</displayName>
+    </mdContact>
+    <dqInfo xmlns="">
+        <dqScope>
+            <scpLvl>
+                <ScopeCd value="005"/>
+            </scpLvl>
+        </dqScope>
+        <dataLineage>
+            <statement>The water mask is generated from shoreline data in the Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHG), buffered 3 km out from shore.
+            </statement>
+        </dataLineage>
+    </dqInfo>
+    <mdMaint xmlns="">
+        <maintFreq>
+            <MaintFreqCd value="009"/>
+        </maintFreq>
+    </mdMaint>
+    <refSysInfo>
+        <RefSystem dimension="horizontal"/>
+    </refSysInfo>
+    <contInfo>
+        <ImgDesc xmlns="">
+            <attDesc>VV</attDesc>
+            <trianInd>False</trianInd>
+            <radCalDatAv>False</radCalDatAv>
+            <camCalInAv>False</camCalInAv>
+            <filmDistInAv>False</filmDistInAv>
+            <lensDistInAv>False</lensDistInAv>
+            <contentTyp>
+                <ContentTypCd value="001"/>
+            </contentTyp>
+            <covDim>
+                <Band xmlns="">
+                    <seqID>
+                        <aName>C-band</aName>
+                        <attributeType>
+                            <aName>SAR</aName>
+                        </attributeType>
+                    </seqID>
+                </Band>
+            </covDim>
+        </ImgDesc>
+    </contInfo>
+</metadata>
