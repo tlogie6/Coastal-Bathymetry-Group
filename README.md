@@ -1,5 +1,5 @@
 # Coastal Bathymetry Group
-## Note to team: I'm not sure what to put for this writeup or how much, feel free to change/add anything about the process that you went through. Also, whoever uploads the data please put in the specifics of your query (images, dates, etc.). I'm putting in the placeholder text for my scenes but I'm still waiting for processing so I might not be able to get my data in before the deadline.
+## Note to team: I'm not sure what to put for this writeup or how much, feel free to change/add anything about the process that you went through. Also, whoever uploads the data please put in the specifics of your query (images, dates, etc.).
 
 ## Data Processing
 
