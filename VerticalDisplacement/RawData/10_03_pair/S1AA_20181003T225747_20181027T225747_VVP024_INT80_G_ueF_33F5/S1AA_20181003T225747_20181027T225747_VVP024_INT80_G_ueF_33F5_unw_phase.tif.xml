@@ -1,0 +1,234 @@
+<metadata xml:lang="en">
+    <Esri>
+        <CreaDate>20211101</CreaDate>
+        <CreaTime>01033900</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle>
+        <SyncOnce>TRUE</SyncOnce>
+        <scaleRange>
+            <minScale>150000000</minScale>
+            <maxScale>5000</maxScale>
+        </scaleRange>
+        <DataProperties>
+            <itemProps>
+                <imsContentType export="False">002</imsContentType>
+                <itemName>S1AA_20181003T225747_20181027T225747_VVP024_INT80_G_ueF_33F5_unw_phase.tif</itemName>
+            </itemProps>
+        </DataProperties>
+        <ArcGISProfile>NAP</ArcGISProfile>
+        <ModDate>20211101</ModDate>
+        <ModTime>01033900</ModTime>
+    </Esri>
+    <dataIdInfo>
+        <idPurp>This is the unwrapped interferogram for a pair of Sentinel-1 SLC granules, processed using GAMMA software. The pixel values indicate relative phase difference between acquisitions. It is a 32-bit float GeoTIFF projected to WGS 84 / UTM zone 18N, and has a pixel spacing of 80 m. It was processed from the wrapped interferogram, which was generated from the SLC using 20x4 looks (20 looks in the range direction and 4 looks in the azimuth direction). This product did not have a water mask applied during the phase unwrapping process.
+</idPurp>
+        <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This is the unwrapped interferogram for a pair of Sentinel-1 SLC granules, processed using GAMMA software. The process of unwrapping the wrapped interferogram applies an integer multiple of the 2-pi values sequentially to adjacent fringes, generating the relative phase difference between the two acquisitions across the image. The file is a 32-bit float GeoTIFF projected to WGS 84 / UTM zone 18N, and has a pixel spacing of 80 m. It was processed from the wrapped interferogram, which was generated from the SLC using 20x4 looks (20 looks in the range direction and 4 looks in the azimuth direction). This product did not have a water mask applied during the phase unwrapping process.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Reference Scene: S1A_IW_SLC__1SDV_20181003T225747_20181003T225817_023978_029E80_23E0&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Secondary Scene: S1A_IW_SLC__1SDV_20181027T225747_20181027T225817_024328_02A9DB_18B5&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Processing Date/Time: 2021-11-01T01:03:39+00:00&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The unwrapped interferogram uses a reference point to convert the wrapped 2-pi scale into a continuous scale (of multiples of pi), and is the most important and complicated step in InSAR processing. The reference point for phase unwrapping is set to be the location of the pixel with the highest coherence value, which is located at 35.69715368 degrees latitude and -75.80937303 degrees longitude in WGS84 geographic coordinates for this interferogram. The phase differences are unwrapped relative to that point using the Minimum Cost Flow (MCF) method. Refer to &lt;/SPAN&gt;&lt;A href="https://www.gamma-rs.ch/uploads/media/2002-5_TR_Phase_Unwrapping.pdf" target="_blank" &gt;&lt;SPAN&gt;GAMMA documentation&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt; for details on the MCF approach.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Phase unwrapping is most effective when there are not any areas with deformation greater than half the sensor wavelength within the space of a single fringe. In regions of large-magnitude deformations or extremely steep topography, the fringes may be too close together to resolve, or one fringe may actually represent a jump of multiple phase wraps. GAMMA software uses algorithms to detect phase inconsistencies and treat them appropriately, but some deformations may still be too large to generate reliable data. It is important to be aware that phase unwrapping errors can and do occur. Time series analysis may be helpful for identifying and correcting such errors.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Even when there are not phase unwrapping errors introduced by phase discontinuities, it is important to be aware that unwrapped phase differences and displacement values are all relative to the reference point. If you are interested in the amount of displacement in a particular area, you may wish to apply a correction to the image so that the range of values are more appropriate for your study area or application.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;In cases where there are not significant phase discontinuities, you can select a reference point that is optimal for your use case, calculate the difference in phase or line-of-sight displacement, and apply a correction to the entire raster to adjust the values to be relative to that new reference point. To adjust phase values so that a user-defined reference point is set to have a phase difference of 0, find the value of the pixel at your desired reference point, and subtract that value from each pixel in the raster. For more information about applying a reference point adjustment, refer to the &lt;/SPAN&gt;&lt;A href="https://hyp3-docs.asf.alaska.edu/guides/insar_product_guide/#phase-unwrapping-reference-point" target="_blank" &gt;&lt;SPAN&gt;Phase Unwrapping Reference Point section in the InSAR Product Guide&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Another potential source of error is the presence of extensive surface water (coastal areas or large inland waterbodies). In some cases, signal returns over surface water meet the coherence and amplitude threshold criteria, even though measurements over water should not be coherent. When this happens, phase unwrapping can occur over expanses of water, leading to unexpected phase jumps over land. Consider selecting the "Apply Water Mask" option when processing InSAR in areas with significant surface water. This option edits the phase unwrapping validity mask so that pixels over water are given a value of 0 (not valid for phase unwrapping). The water mask used for this process is always included in the product package, even if the option to apply it is not selected. This product did not have a water mask applied during the phase unwrapping process.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The GeoTIFF contains the unwrapped phase difference values for each pixel, which corresponds to the change in distance along the line of sight of the sensor. Positive values indicate movement away from the sensor (caused by subsidence or lateral movement away from the sensor) and negative values indicate movement towards the sensor (uplift or lateral movement towards the sensor). Note that deformation often includes both vertical and horizontal components, and additional processing or external reference data is required to calculate the relative contributions of vertical and lateral movement from the line-of-sight phase changes.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The displacement maps included in the product package display values that have been converted from phase difference to reflect the magnitude of the deformation in meters. Note that the values of the displacement maps are presented from the opposite perspective of the phase difference in the unwrapped interferogram. While areas with movement towards the sensor will have negative values in the unwrapped interferogram, this direction of movement will be translated into positive values in the displacement maps. The signal path becomes shorter in the case of uplift, as the surface is closer to the sensor than previously (negative change in phase), but negative values for uplift would be counterintuitive in a displacement map, which is describing the movement relative to the surface of the earth rather than relative to the sensor location.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;No atmospheric corrections have been applied to this interferogram. Use caution when looking at a single interferogram, as atmospheric effects can easily be misinterpreted as surface deformation. While SAR signals can penetrate clouds, atmospheric conditions can delay the transmission of the signal. This results in phase differences that can look like surface deformation signals, but are actually driven by differences in the atmospheric conditions between the pair of acquisitions used to generate the interferogram. Consider applying an atmospheric model to correct for atmospheric delay, or examining other InSAR pairs that bracket the same event but were acquired on different dates to determine if atmospheric effects are driving the phase differences.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;This GeoTIFF is displayed in grayscale by default, but it may be helpful to apply a color ramp to better illustrate the direction of phase change. To apply a color ramp to the image in ArcGIS, open the symbology properties for the layer (or click on the color ramp in the TOC) and apply a color ramp that displays two very different colors such as red and blue at the extremities with a neutral color in between. The Prediction color ramp is available in both ArcGIS Pro and ArcMap. Other good ramps include Red-Yellow-Blue (Continuous) or Red-Blue (Continuous) in ArcGIS Pro, and Cold to Hot Diverging or Red to Blue Diverging in ArcMap.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Refer to ASF's &lt;/SPAN&gt;&lt;A href="https://hyp3-docs.asf.alaska.edu/guides/insar_product_guide/" target="_blank" &gt;&lt;SPAN&gt;InSAR Product Guide&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt; for more information about On Demand InSAR products.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The Sentinel-1A satellite was launched April 3, 2014, and the Sentinel-1B satellite was launched April 25, 2016. The satellites each have a 12-day repeat cycle. More information about the mission is available at &lt;/SPAN&gt;&lt;A href="https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1" target="_blank" &gt;&lt;SPAN&gt;https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Additional information about Sentinel-1 data, imagery, tools and applications is available at &lt;/SPAN&gt;&lt;A href="https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1/" target="_blank" &gt;&lt;SPAN&gt;https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+</idAbs>
+        <idCredit>When using this data as an image in a publication such as journal papers, articles, presentations, posters, and websites, please include the following credit with the image (portions in square brackets are optional):
+
+[InSAR product processed by ]ASF DAAC HyP3 2021[ using GAMMA software]. Contains modified Copernicus Sentinel data 2018, processed by ESA.
+
+When using this data in a manuscript and/or crediting datasets used for analysis, an acknowledgement including the software versions may be appropriate:
+
+ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701. Contains modified Copernicus Sentinel data 2018, processed by ESA.
+
+For more information on citing the dataset, please refer to the README file distributed with this product.</idCredit>
+        <idCitation xmlns="">
+            <date>
+                <pubDate>2021-11-01T01:03:39+00:00</pubDate>
+            </date>
+            <citRespParty xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="007"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+            </citRespParty>
+        </idCitation>
+        <searchKeys>
+            <keyword>Alaska Satellite Facility</keyword>
+            <keyword>ASF</keyword>
+            <keyword>Synthetic Aperture Radar</keyword>
+            <keyword>SAR</keyword>
+            <keyword>Interferometric SAR</keyword>
+            <keyword>InSAR</keyword>
+            <keyword>Sentinel-1</keyword>
+        </searchKeys>
+        <dataLang>
+            <languageCode value="eng"/>
+            <countryCode value="US"/>
+        </dataLang>
+        <dataChar>
+            <CharSetCd value="004"/>
+        </dataChar>
+        <idPoC xmlns="">
+            <rpOrgName>Alaska Satellite Facility</rpOrgName>
+            <role>
+                <RoleCd value="010"/>
+            </role>
+            <rpCntInfo xmlns="">
+                <cntAddress addressType="physical">
+                    <delPoint>2156 Koyukuk Dr.</delPoint>
+                    <city>Fairbanks</city>
+                    <adminArea>Alaska</adminArea>
+                    <postCode>99775-7320</postCode>
+                    <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                    <country>US</country>
+                </cntAddress>
+                <cntPhone>
+                    <voiceNum tddtty="">907-474-5041</voiceNum>
+                </cntPhone>
+            </rpCntInfo>
+            <displayName>Alaska Satellite Facility</displayName>
+        </idPoC>
+        <resMaint xmlns="">
+            <maintFreq>
+                <MaintFreqCd value="009"/>
+            </maintFreq>
+            <maintCont xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="002"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+                <displayName>Alaska Satellite Facility</displayName>
+            </maintCont>
+        </resMaint>
+        <resConst>
+            <Consts xmlns="">
+                <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;There are no restrictions on the use of this data, but it must be acknowledged or cited as listed in the credits.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+            </Consts>
+        </resConst>
+        <envirDesc>This product was generated by ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701.</envirDesc>
+        <tpCat>
+            <TopicCatCd value="008"/>
+        </tpCat>
+    </dataIdInfo>
+    <mdHrLv>
+        <ScopeCd value="005"/>
+    </mdHrLv>
+        <mdFileID>5.1.1</mdFileID>
+    <mdLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+    </mdLang>
+    <mdChar>
+        <CharSetCd value="004"/>
+    </mdChar>
+    <mdDateSt>20211101</mdDateSt>
+    <dataSetFn>
+        <OnFunctCd value="001"/>
+    </dataSetFn>
+    <mdContact xmlns="">
+        <rpOrgName>Alaska Satellite Facility</rpOrgName>
+        <role>
+            <RoleCd value="006"/>
+        </role>
+        <rpCntInfo xmlns="">
+            <cntAddress addressType="physical">
+                <delPoint>2156 Koyukuk Dr.</delPoint>
+                <city>Fairbanks</city>
+                <adminArea>Alaska</adminArea>
+                <postCode>99775-7320</postCode>
+                <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                <country>US</country>
+            </cntAddress>
+            <cntPhone>
+                <voiceNum tddtty="">907-474-5041</voiceNum>
+            </cntPhone>
+        </rpCntInfo>
+        <displayName>Alaska Satellite Facility</displayName>
+    </mdContact>
+    <dqInfo xmlns="">
+        <dqScope>
+            <scpLvl>
+                <ScopeCd value="005"/>
+            </scpLvl>
+        </dqScope>
+        <dataLineage>
+            <statement>The unwrapped phase interferogram is generated from the wrapped interferogram during InSAR processing (step 8) using GAMMA's mcf program, which applies a Minimum Cost Flow approach for phase unwrapping.
+
+The basic steps in InSAR processing are as follows:
+
+*Pre-Processing*
+1. Ingest SLC data into GAMMA format
+2. Get DEM file covering the area, apply geoid correction and resample/reproject as required
+3. Calculate overlapping bursts for input scenes
+4. Mosaic swaths and bursts together
+
+*InSAR Processing*
+5. Prepare initial look-up table and simulated unwrapped image
+    - Derive lookup table for SLC/MLI co-registration (considering terrain heights)
+    - Simulate unwrapped interferometric phase using DEM height, and deformation rate using orbit state vectors
+6. Interferogram creation, matching, refinement
+    - Initial co-registration with look-up table
+    - Iterative co-registration with look-up table
+    - Removal of curved earth and topographic phase
+7. Determine a co-registration offset based on the burst overlap (spectral diversity method)
+    - Single iteration co-registration with look-up table
+8. Phase unwrapping and coherence map generation
+9. Generation of displacement maps from unwrapped differential phase
+
+*Post-Processing*
+10. Generation of geocoded GeoTIFF outputs
+
+For a detailed description of InSAR processing using GAMMA software, refer to the readme file included with the product package.
+            </statement>
+        </dataLineage>
+    </dqInfo>
+    <mdMaint xmlns="">
+        <maintFreq>
+            <MaintFreqCd value="009"/>
+        </maintFreq>
+    </mdMaint>
+    <refSysInfo>
+        <RefSystem dimension="horizontal"/>
+    </refSysInfo>
+    <contInfo>
+        <ImgDesc xmlns="">
+            <attDesc>VV</attDesc>
+            <trianInd>False</trianInd>
+            <radCalDatAv>False</radCalDatAv>
+            <camCalInAv>False</camCalInAv>
+            <filmDistInAv>False</filmDistInAv>
+            <lensDistInAv>False</lensDistInAv>
+            <contentTyp>
+                <ContentTypCd value="001"/>
+            </contentTyp>
+            <covDim>
+                <Band xmlns="">
+                    <seqID>
+                        <aName>C-band</aName>
+                        <attributeType>
+                            <aName>SAR</aName>
+                        </attributeType>
+                    </seqID>
+                </Band>
+            </covDim>
+        </ImgDesc>
+    </contInfo>
+</metadata>
