@@ -1,0 +1,213 @@
+<metadata xml:lang="en">
+    <Esri>
+        <CreaDate>20211119</CreaDate>
+        <CreaTime>03075500</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle>
+        <SyncOnce>TRUE</SyncOnce>
+        <scaleRange>
+            <minScale>150000000</minScale>
+            <maxScale>5000</maxScale>
+        </scaleRange>
+        <DataProperties>
+            <itemProps>
+                <imsContentType export="False">002</imsContentType>
+                <itemName>S1AA_20161006T230536_20161123T230536_VVP048_INT80_G_ueF_16B5_color_phase.png</itemName>
+            </itemProps>
+        </DataProperties>
+        <ArcGISProfile>NAP</ArcGISProfile>
+        <ModDate>20211119</ModDate>
+        <ModTime>03075500</ModTime>
+    </Esri>
+    <dataIdInfo>
+        <idPurp>This PNG file is a browse image of the wrapped interferogram for a pair of Sentinel-1 SLC granules, processed using GAMMA software. The fringes indicate phase difference values on a wrapped 2-pi scale, and are underlain with backscatter intensity (amplitude) data to place the phase differences in topographic context. The image is resampled from the wrapped interferogram to be 2048 pixels wide.
+</idPurp>
+        <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This file is a browse image of the wrapped interferogram for a pair of Sentinel-1 SLC granules, processed using GAMMA software. The image is generated from the interferogram phase difference values prior to unwrapping, so the values are constrained to a wrapped range of 2-pi, represented by a complete cycle through the color ramp (one "fringe"). The fringes are displayed on a background of the backscatter intensity values to give topographic context to the deformation. The pixel spacing is resampled so that the output image is 2048 pixels wide.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Reference Scene: S1A_IW_SLC__1SDV_20161006T230536_20161006T230606_013376_015576_F8FA&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Secondary Scene: S1A_IW_SLC__1SDV_20161123T230536_20161123T230606_014076_016B42_0298&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Processing Date/Time: 2021-11-19T03:07:55+00:00&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Because the values are on a wrapped 2-pi scale rather than representing continuous phase difference values, a wrapped interferogram tends to be most useful as a color visualization. Each fringe (one cycle through the color ramp) indicates line-of-sight displacement equivalent to half the sensor wavelength. The Sentinel-1 SAR sensor has a wavelength of 5.6 cm, so each fringe would represent a line-of-sight displacement of 2.8 cm. Fringes that are very close together indicate greater amounts of deformation than wider fringes.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;This browse image is also provided as a KMZ file for use in Google Earth or other platforms that read KMZ format. In addition, a full-resolution GeoTIFF of the wrapped interferogram can be optionally included in the product package, though it is excluded by default. The GeoTIFF displays only the phase difference data without the amplitude background.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;No atmospheric corrections have been applied to the interferogram used to generate this browse image. Use caution when looking at a single interferogram, as atmospheric effects can easily be misinterpreted as surface deformation. While SAR signals can penetrate clouds, atmospheric conditions can delay the transmission of the signal. This results in phase differences that can look like surface deformation signals, but are actually driven by differences in the atmospheric conditions between the pair of acquisitions used to generate the interferogram.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Refer to ASF's &lt;/SPAN&gt;&lt;A href="https://hyp3-docs.asf.alaska.edu/guides/insar_product_guide/" target="_blank" &gt;&lt;SPAN&gt;InSAR Product Guide&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt; for more information about On Demand InSAR products.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The Sentinel-1A satellite was launched April 3, 2014, and the Sentinel-1B satellite was launched April 25, 2016. The satellites each have a 12-day repeat cycle. More information about the mission is available at &lt;/SPAN&gt;&lt;A href="https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1" target="_blank" &gt;&lt;SPAN&gt;https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Additional information about Sentinel-1 data, imagery, tools and applications is available at &lt;/SPAN&gt;&lt;A href="https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1/" target="_blank" &gt;&lt;SPAN&gt;https://asf.alaska.edu/data-sets/sar-data-sets/sentinel-1&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+</idAbs>
+        <idCredit>When using this data as an image in a publication such as journal papers, articles, presentations, posters, and websites, please include the following credit with the image (portions in square brackets are optional):
+
+[InSAR product processed by ]ASF DAAC HyP3 2021[ using GAMMA software]. Contains modified Copernicus Sentinel data 2016, processed by ESA.
+
+When using this data in a manuscript and/or crediting datasets used for analysis, an acknowledgement including the software versions may be appropriate:
+
+ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701. Contains modified Copernicus Sentinel data 2016, processed by ESA.
+
+For more information on citing the dataset, please refer to the README file distributed with this product.</idCredit>
+        <idCitation xmlns="">
+            <date>
+                <pubDate>2021-11-19T03:07:55+00:00</pubDate>
+            </date>
+            <citRespParty xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="007"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+            </citRespParty>
+        </idCitation>
+        <searchKeys>
+            <keyword>Alaska Satellite Facility</keyword>
+            <keyword>ASF</keyword>
+            <keyword>Synthetic Aperture Radar</keyword>
+            <keyword>SAR</keyword>
+            <keyword>Interferometric SAR</keyword>
+            <keyword>InSAR</keyword>
+            <keyword>Sentinel-1</keyword>
+        </searchKeys>
+        <dataLang>
+            <languageCode value="eng"/>
+            <countryCode value="US"/>
+        </dataLang>
+        <dataChar>
+            <CharSetCd value="004"/>
+        </dataChar>
+        <idPoC xmlns="">
+            <rpOrgName>Alaska Satellite Facility</rpOrgName>
+            <role>
+                <RoleCd value="010"/>
+            </role>
+            <rpCntInfo xmlns="">
+                <cntAddress addressType="physical">
+                    <delPoint>2156 Koyukuk Dr.</delPoint>
+                    <city>Fairbanks</city>
+                    <adminArea>Alaska</adminArea>
+                    <postCode>99775-7320</postCode>
+                    <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                    <country>US</country>
+                </cntAddress>
+                <cntPhone>
+                    <voiceNum tddtty="">907-474-5041</voiceNum>
+                </cntPhone>
+            </rpCntInfo>
+            <displayName>Alaska Satellite Facility</displayName>
+        </idPoC>
+        <resMaint xmlns="">
+            <maintFreq>
+                <MaintFreqCd value="009"/>
+            </maintFreq>
+            <maintCont xmlns="">
+                <rpOrgName>Alaska Satellite Facility</rpOrgName>
+                <role>
+                    <RoleCd value="002"/>
+                </role>
+                <rpCntInfo xmlns="">
+                    <cntAddress addressType="physical">
+                        <delPoint>2156 Koyukuk Dr.</delPoint>
+                        <city>Fairbanks</city>
+                        <adminArea>Alaska</adminArea>
+                        <postCode>99775-7320</postCode>
+                        <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                        <country>US</country>
+                    </cntAddress>
+                    <cntPhone>
+                        <voiceNum tddtty="">907-474-5041</voiceNum>
+                    </cntPhone>
+                </rpCntInfo>
+                <displayName>Alaska Satellite Facility</displayName>
+            </maintCont>
+        </resMaint>
+        <resConst>
+            <Consts xmlns="">
+                <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;There are no restrictions on the use of this data, but it must be acknowledged or cited as listed in the credits.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+            </Consts>
+        </resConst>
+        <envirDesc>This product was generated by ASF DAAC HyP3 2021 using the hyp3_gamma plugin version 5.1.1 running GAMMA release 20210701.</envirDesc>
+        <tpCat>
+            <TopicCatCd value="008"/>
+        </tpCat>
+    </dataIdInfo>
+    <mdHrLv>
+        <ScopeCd value="005"/>
+    </mdHrLv>
+        <mdFileID>5.1.1</mdFileID>
+    <mdLang>
+        <languageCode value="eng"/>
+        <countryCode value="US"/>
+    </mdLang>
+    <mdChar>
+        <CharSetCd value="004"/>
+    </mdChar>
+    <mdDateSt>20211119</mdDateSt>
+    <dataSetFn>
+        <OnFunctCd value="001"/>
+    </dataSetFn>
+    <mdContact xmlns="">
+        <rpOrgName>Alaska Satellite Facility</rpOrgName>
+        <role>
+            <RoleCd value="006"/>
+        </role>
+        <rpCntInfo xmlns="">
+            <cntAddress addressType="physical">
+                <delPoint>2156 Koyukuk Dr.</delPoint>
+                <city>Fairbanks</city>
+                <adminArea>Alaska</adminArea>
+                <postCode>99775-7320</postCode>
+                <eMailAdd>uso@asf.alaska.edu</eMailAdd>
+                <country>US</country>
+            </cntAddress>
+            <cntPhone>
+                <voiceNum tddtty="">907-474-5041</voiceNum>
+            </cntPhone>
+        </rpCntInfo>
+        <displayName>Alaska Satellite Facility</displayName>
+    </mdContact>
+    <dqInfo xmlns="">
+        <dqScope>
+            <scpLvl>
+                <ScopeCd value="005"/>
+            </scpLvl>
+        </dqScope>
+        <dataLineage>
+            <statement>The color phase browse image is generated from the wrapped interferogram and amplitude products during the InSAR processing workflow using GAMMA's rasmph_pwr program. Refer to the product readme file for details on the InSAR processing workflow.
+            </statement>
+        </dataLineage>
+    </dqInfo>
+    <mdMaint xmlns="">
+        <maintFreq>
+            <MaintFreqCd value="009"/>
+        </maintFreq>
+    </mdMaint>
+    <refSysInfo>
+        <RefSystem dimension="horizontal"/>
+    </refSysInfo>
+    <contInfo>
+        <ImgDesc xmlns="">
+            <attDesc>VV</attDesc>
+            <trianInd>False</trianInd>
+            <radCalDatAv>False</radCalDatAv>
+            <camCalInAv>False</camCalInAv>
+            <filmDistInAv>False</filmDistInAv>
+            <lensDistInAv>False</lensDistInAv>
+            <contentTyp>
+                <ContentTypCd value="001"/>
+            </contentTyp>
+            <covDim>
+                <Band xmlns="">
+                    <seqID>
+                        <aName>C-band</aName>
+                        <attributeType>
+                            <aName>SAR</aName>
+                        </attributeType>
+                    </seqID>
+                </Band>
+            </covDim>
+        </ImgDesc>
+    </contInfo>
+    <Binary>
+        <Thumbnail>
+            <Data EsriPropertyType="PictureX">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</Data>
+        </Thumbnail>
+    </Binary>
+</metadata>
